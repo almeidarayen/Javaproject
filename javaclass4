@@ -1,0 +1,28 @@
+package java1;
+
+import java.util.Scanner;
+
+public class java1 {
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		int num;
+		System.out.println("What is your age?");
+		num = sc.nextInt();
+		
+		if (num < 18) {
+			System.out.println("Sorry. You don't have age to stay here.");
+		}
+		else {
+			if (num < 35) {
+				System.out.println("Okay. You're in.");
+			}
+			
+			else {
+				System.out.println("Try again.");
+			}
+			}
+			
+		sc.close();
+	}		
+	}
